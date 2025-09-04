@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SemaforoTimer));
             this.btnLigar = new System.Windows.Forms.Button();
             this.btnDesligar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
@@ -124,6 +125,7 @@
             this.Controls.Add(this.btnLigar);
             this.Controls.Add(this.pbBase);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "SemaforoTimer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
